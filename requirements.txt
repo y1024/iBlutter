@@ -1,0 +1,10 @@
+# iBlutter — Requirements
+# ========================
+# Install with:  pip install -r requirements.txt
+
+# Core — Mach-O parsing and ELF synthesis
+lief>=0.14.0            # Parse iOS Mach-O / Fat Binary files
+pyelftools>=0.31        # Read ELF files (for Dart snapshot hash extraction)
+
+# HTTP — Auto Dart SDK version detection
+requests>=2.31.0        # Download Dart SDK metadata for version detection
